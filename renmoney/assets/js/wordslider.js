@@ -86,3 +86,15 @@ const slides = [
     
     animateOnScroll(document.querySelectorAll('.scroll-fade-in'), 'opacity-100 translate-y-0');
   });
+
+  const textElement = document.getElementById('vibrating-text');
+        
+  function toggleVibration() {
+      textElement.classList.toggle('vibrate');
+  }
+  
+  // Vibrate every 3 seconds (vibrates for 0.3s then stops)
+  setInterval(() => {
+      toggleVibration();
+      setTimeout(toggleVibration, 300); // Duration matches CSS animation
+  }, 3000);
