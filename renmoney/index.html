@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/img/the-renmoney-team_avatar-240x240.png" type="image/x-icon">
+<link rel="shortcut icon" href="assets/img/the-renmoney-team_avatar-240x240.png" type="image/x-icon">
+  <title>Renmoney Redesign</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  
+
+  
+  
+  
+</head>
+<body class="bg-white text-gray-800">
+
+  
+  <nav class="flex justify-between items-center p-6 border-b">
+    <div class="flex items-center gap-2">
+      <img src="assets/img/the-renmoney-team_avatar-240x240.png" alt="Logo" class="w-8 h-8">
+      <span class="text-xl font-bold">Renmoney</span>
+    </div>
+    <ul class="hidden md:flex gap-6 items-center text-sm font-medium">
+      <li><a href="#" class="hover:text-green-600">Loans</a></li>
+      <li><a href="#" class="hover:text-green-600">Savings</a></li>
+      <li><a href="#" class="hover:text-green-600">Features</a></li>
+      <li class="relative group">
+        <a href="#" class="hover:text-green-600 inline-block">Company</a>
+        <ul class="absolute left-0 mt-2 w-48 bg-white text-gray-800 shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">About Us</a></li>
+          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Working With Us</a></li>
+          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Blog</a></li>
+          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">FAQ</a></li>
+        </ul>
+      </li>
+      
+      <li><a href="#" class="text-gray-700">Login</a></li>
+      <li><a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700">Get Started</a></li>
+    </ul>
+  </nav>
+
+
+ <div class="absolute top-[-250px] right-[-180px] w-[700px] h-[700px] z-20 pointer-events-none">
+    <div class="w-full h-full relative">
+      <div class="absolute top-1/2 left-1/2 custom-orbit-spin transform -translate-x-1/2 -translate-y-1/2">
+        <img src="assets/img/the-renmoney-team_avatar-240x240.png" alt="Rotating Logo" class="w-10 h-10">
+      </div>
+    </div>
+  </div>
+  
+<section class="relative overflow-hidden">
+  <!-- Animated gradient background -->
+  <div class="absolute inset-0 bg-gradient-to-r from-blue-50 to-blue-100 opacity-50 animate-gradient-x"></div>
+  
+  <div class="max-w-7xl mx-auto px-6 py-32 flex flex-col md:flex-row items-center gap-10 relative z-10">
+    <!-- Left Content -->
+    <div class="md:w-1/2">
+      <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+        Unlock the power of <br>
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-orange-500 animate-pulse">
+          finance
+        </span>
+      </h1>
+      <p class="text-xl text-gray-600 mb-8">Digital banking built for you – loans, savings, payments & more</p>
+      
+      <div class="flex flex-col gap-6">
+        <div class="flex gap-4">
+          <a href="#" class="hover-grow">
+            <img src="assets/img/Group_.png" alt="Google Play" class="h-14">
+          </a>
+          <a href="#" class="hover-grow">
+            <img src="assets/img/Appstore-1.png" alt="App Store" class="h-14">
+          </a>
+        </div>
+        
+        <a href="#" class="relative inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-bold rounded-full transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 w-fit">
+          <span>Get started on web</span>
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+          <!-- Animated orange dot -->
+          <span class="absolute top-3 right-3 w-5 h-5 bg-orange-400 rounded-full animate-pulse"></span>
+        </a>
+      </div>
+    </div>
+    
+    <!-- Right Phone Image -->
+    <div class="md:w-1/2 relative">
+      <div class="relative animate-float">
+        <img src="assets/img/PL-and-BL-loans-3.png" alt="App Preview" class="w-full max-w-md mx-auto">
+        <!-- Floating decorative elements -->
+       <!-- Floating Coin 1 -->
+<div class="absolute top-20 -left-10 w-16 h-16 rounded-full overflow-hidden animate-float" style="animation-delay: 0.5s;">
+    <img src="assets/img/Ellipse 192.png" class="w-full h-full object-cover" alt="Coin 1">
+  </div>
+  
+  <!-- Floating Coin 2 -->
+  <div class="absolute bottom-20 -right-10 w-14 h-14 rounded-full overflow-hidden animate-float" style="animation-delay: 1s;">
+    <img src="assets/img/Ellipse 194.png" class="w-full h-full object-cover" alt="Coin 2">
+  </div>
+  
+      </div>
+    </div>
+  </div>
+</section>
+  
+
+  
+<section class="bg-blue-50 py-10 overflow-hidden">
+    <div class="relative w-full">
+      <!-- Scrolling container -->
+      <div class="flex items-center gap-16 animate-scroll whitespace-nowrap">
+        <!-- CBN Badge -->
+        <div class="flex items-center gap-4 min-w-max px-4">
+          <img src="assets/img/download.svg" alt="CBN" class="h-10 w-10 object-contain">
+          <span class="text-gray-700 text-base">Licensed by the Central Bank of Nigeria</span>
+        </div>
+  
+        <!-- NDIC Badge -->
+        <div class="flex items-center gap-4 min-w-max px-4">
+          <img src="assets/img/Group-52789-1.png" alt="NDIC" class="h-10 w-10 object-contain">
+          <span class="text-gray-700 text-base">NDIC Insured Savings and Deposit</span>
+        </div>
+  
+        <!-- Loan Badge -->
+        <div class="flex items-center gap-4 min-w-max px-4">
+          <img src="assets/img/renmoney-logo.png" alt="Loan Icon" class="h-10 w-10 object-contain">
+          <span class="text-gray-700 text-base">Convenient loans</span>
+        </div>
+  
+        <!-- (Optional) Duplicate badges for smooth looping -->
+        <div class="flex items-center gap-4 min-w-max px-4">
+          <img src="assets/img/download.svg" alt="CBN" class="h-10 w-10 object-contain">
+          <span class="text-gray-700 text-base">Licensed by the Central Bank of Nigeria</span>
+        </div>
+        <div class="flex items-center gap-4 min-w-max px-4">
+          <img src="assets/img/Group-52789-1.png" alt="NDIC" class="h-10 w-10 object-contain">
+          <span class="text-gray-700 text-base">NDIC Insured Savings and Deposit</span>
+        </div>
+        <div class="flex items-center gap-4 min-w-max px-4">
+          <img src="assets/img/renmoney-logo.png" alt="Loan Icon" class="h-10 w-10 object-contain">
+          <span class="text-gray-700 text-base">Convenient loans</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-16 md:mb-20 mt-8 md:mt-12 text-blue-800 leading-tight md:leading-snug">
+    <span class="block mb-4">10 years of building <span class="text-orange-500">banking</span>
+</span>
+    <span class="relative inline-block">
+      <span class="relative z-10 px-2">solutions</span>
+      <span class="absolute bottom-0 left-0 w-full h-3 bg-blue-100 opacity-40 -z-0"></span>
+    </span>
+    <span class="block mt-4 text-blue-700 text-xl md:text-2xl font-medium">
+      for millions of under-banked people in Nigeria
+    </span>
+  </h2>
+
+  <section class="relative max-w-7xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-10 overflow-hidden">
+    <!-- Light PNG Background Pattern -->
+    <div class="absolute inset-0 -z-10 opacity-10">
+      <img src="assets/img/Earth.png" 
+           alt="Subtle texture background"
+           class="w-full h-full object-cover object-center"
+           loading="lazy">
+    </div>
+  
+    <!-- Left: Phone Image -->
+    <div class="md:w-1/2 flex justify-center order-1 relative z-10">
+      <img src="assets/img/Business-Loans-Image.png" alt="Phone UI" class="w-[300px] md:w-[350px]">
+    </div>
+  
+    <!-- Right: Text Slider -->
+    <div class="md:w-1/2 order-2 relative z-10">
+      <div id="sliderContent">
+        <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">Get a Loan Instantly</h2>
+        <p class="text-gray-600 mb-4">Apply for fast, convenient loans that fit your lifestyle.</p>
+        <a href="#" class="text-blue-700 font-medium inline-flex items-center hover:text-blue-800 transition-colors">
+          Learn More →
+        </a>
+      </div>
+      <button onclick="nextSlide()" class="mt-6 bg-blue-600 hover:bg-orange-700 text-white px-4 py-2 rounded-lg transition-colors">
+        Next
+      </button>
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-10">
+    <!-- Left: Phone Image -->
+    <div class="md:w-1/2 flex justify-center order-2 md:order-1">
+      <img src="assets/img/PL-and-BL-loans-3.png" alt="Phone UI" class="w-[300px] md:w-[350px]">
+    </div>
+  
+    <!-- Right: Text Slider -->
+    <div class="md:w-1/2 order-1 md:order-2">
+      <div id="sliderContent">
+        <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-900">Personal & Business Loans</h2>
+        <p class="text-gray-600 mb-4">Grow your business or take care of personal needs with loans and repay conveniently</p>
+        <a href="#" class="text-blue-700 font-medium inline-flex items-center">Learn More →</a>
+      </div>
+      <button onclick="nextSlide()" class="mt-6 bg-blue-600 hover:bg-orange-700 text-white px-4 py-2 rounded ">Next</button>
+    </div>
+  </section>
+  
+  <section class="max-w-7xl mx-auto px-6 py-20 bg-blue-50">
+    <h2 class="text-3xl font-bold text-center mb-12 text-blue-800">Financial Literacy for Nigerians</h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Card 1 - Grow Money -->
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-blue-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+        <div class="p-6">
+          <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">Grow Money, Know Money</h3>
+          <p class="text-gray-600 mb-4">Essential personal finance tips tailored for Nigerians to build wealth and financial understanding.</p>
+          <a href="#" class="text-blue-600 font-medium inline-flex items-center hover:text-blue-800">
+            Learn more →
+          </a>
+        </div>
+      </div>
+  
+      <!-- Card 2 - Emergency Fund -->
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-blue-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+        <div class="p-6">
+          <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">Building an Emergency Fund</h3>
+          <p class="text-gray-600 mb-4">Why it's crucial for Nigerians to save for unexpected expenses and financial stability.</p>
+          <a href="#" class="text-blue-600 font-medium inline-flex items-center hover:text-blue-800">
+            Learn more →
+          </a>
+        </div>
+      </div>
+  
+      <!-- Card 3 - Where You Save -->
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-blue-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+        <div class="p-6">
+          <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">Where You Save Matters</h3>
+          <p class="text-gray-600 mb-4">Financial security comes from smart saving and responsible money management for true freedom.</p>
+          <a href="#" class="text-blue-600 font-medium inline-flex items-center hover:text-blue-800">
+            Learn more →
+          </a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="text-center mt-12">
+      <a href="#" class="inline-block bg-blue-600 hover:bg-orange-700 text-white font-medium px-8 py-3 rounded-lg transition-colors shadow-md hover:shadow-lg">
+        View All Financial Tips
+      </a>
+    </div>
+  </section>
+
+
+
+  <section class="max-w-7xl mx-auto px-6 py-20 bg-gray-50">
+    <h2 class="text-3xl font-bold text-center mb-12 text-blue-800">What Our Customers Say</h2>
+    
+    <div class="relative">
+      <!-- Testimonial Slider Container -->
+      <div class="overflow-hidden">
+        <div id="testimonialSlider" class="flex transition-transform duration-300 ease-in-out">
+          <!-- Testimonial 1 -->
+          <div class="min-w-full md:min-w-[50%] lg:min-w-[25%] px-4">
+            <div class="bg-white p-6 rounded-xl shadow-md h-full">
+              <div class="flex items-center mb-4">
+                <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                  <span class="text-blue-600 font-bold">A</span>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800">Adebayo K.</h4>
+                  <p class="text-sm text-gray-500">Lagos</p>
+                </div>
+              </div>
+              <p class="text-gray-600 mb-4">"Grow Money has transformed how I save. The financial tips are specifically helpful for Nigerian realities."</p>
+              <div class="flex text-yellow-400">
+                ★ ★ ★ ★ ★
+              </div>
+            </div>
+          </div>
+  
+          <!-- Testimonial 2 -->
+          <div class="min-w-full md:min-w-[50%] lg:min-w-[25%] px-4">
+            <div class="bg-white p-6 rounded-xl shadow-md h-full">
+              <div class="flex items-center mb-4">
+                <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                  <span class="text-blue-600 font-bold">C</span>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800">Chioma E.</h4>
+                  <p class="text-sm text-gray-500">Abuja</p>
+                </div>
+              </div>
+              <p class="text-gray-600 mb-4">"The emergency fund guide saved me during unexpected medical bills. Essential advice for every Nigerian!"</p>
+              <div class="flex text-yellow-400">
+                ★ ★ ★ ★ ★
+              </div>
+            </div>
+          </div>
+  
+          <!-- Testimonial 3 -->
+          <div class="min-w-full md:min-w-[50%] lg:min-w-[25%] px-4">
+            <div class="bg-white p-6 rounded-xl shadow-md h-full">
+              <div class="flex items-center mb-4">
+                <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                  <span class="text-blue-600 font-bold">O</span>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800">Oluwatobi M.</h4>
+                  <p class="text-sm text-gray-500">Ibadan</p>
+                </div>
+              </div>
+              <p class="text-gray-600 mb-4">"Finally understand where to save my money for maximum growth. The local context makes all the difference."</p>
+              <div class="flex text-yellow-400">
+                ★ ★ ★ ★ ☆
+              </div>
+            </div>
+          </div>
+  
+          <!-- Testimonial 4 -->
+          <div class="min-w-full md:min-w-[50%] lg:min-w-[25%] px-4">
+            <div class="bg-white p-6 rounded-xl shadow-md h-full">
+              <div class="flex items-center mb-4">
+                <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                  <span class="text-blue-600 font-bold">F</span>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800">Folake A.</h4>
+                  <p class="text-sm text-gray-500">Port Harcourt</p>
+                </div>
+              </div>
+              <p class="text-gray-600 mb-4">"The continental debit card has made international transactions so much easier with lower fees."</p>
+              <div class="flex text-yellow-400">
+                ★ ★ ★ ★ ★
+              </div>
+            </div>
+          </div>
+  
+          <!-- Testimonial 5 (hidden initially) -->
+          <div class="min-w-full md:min-w-[50%] lg:min-w-[25%] px-4">
+            <div class="bg-white p-6 rounded-xl shadow-md h-full">
+              <div class="flex items-center mb-4">
+                <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                  <span class="text-blue-600 font-bold">I</span>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800">Ibrahim D.</h4>
+                  <p class="text-sm text-gray-500">Kano</p>
+                </div>
+              </div>
+              <p class="text-gray-600 mb-4">"Instant revenue feature helped my small business survive during tough economic periods. Highly recommended!"</p>
+              <div class="flex text-yellow-400">
+                ★ ★ ★ ★ ★
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Navigation Buttons -->
+      <button id="prevTestimonial" class="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 bg-white p-2 rounded-full shadow-md hover:bg-blue-50">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+        </svg>
+      </button>
+      <button id="nextTestimonial" class="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 bg-white p-2 rounded-full shadow-md hover:bg-blue-50">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+    </div>
+  </section>
+
+
+
+
+  <section class="relative bg-blue-600 text-white py-16 px-6">
+
+
+    <img src="assets/img/Group.png" 
+    alt="Decorative Background"
+    class="absolute top-0 left-0 w-1/2 h-full object-cover z-10 pointer-events-none">
+
+
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
+    
+    <!-- Left: Text Content -->
+    <div class="md:w-1/2 relative">
+      
+      <!-- PNG Background -->
+      <img src="assets/img/your-left-bg.png" 
+           alt="Background Decoration" 
+           class="absolute top-0 left-0 w-full h-full object-cover opacity-10 -z-10 pointer-events-none">
+
+      <h2 class="text-3xl md:text-4xl font-bold mb-6">Perks of using us?</h2>
+      
+      <ul class="space-y-4 mb-8">
+        <li class="flex items-start">
+          <svg class="h-6 w-6 text-blue-200 mr-3 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span class="text-blue-100 text-lg">No monthly fees</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="h-6 w-6 text-blue-200 mr-3 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span class="text-blue-100 text-lg">Shop internationally, no fees added</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="h-6 w-6 text-blue-200 mr-3 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span class="text-blue-100 text-lg">Instant Reversals</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="h-6 w-6 text-blue-200 mr-3 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span class="text-blue-100 text-lg">Continental debit card</span>
+        </li>
+      </ul>
+
+      <a href="#" class="inline-flex items-center text-white font-medium hover:text-blue-100 transition-colors mb-10">
+        Learn More →
+        <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+        </svg>
+      </a>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div class="bg-white/10 p-4 rounded-lg backdrop-blur-sm border border-white/20">
+          <h3 class="text-blue-200 mb-1">Saving</h3>
+          <p class="text-2xl font-bold">N3,000</p>
+        </div>
+        <div class="bg-white/10 p-4 rounded-lg backdrop-blur-sm border border-white/20">
+          <h3 class="text-blue-200 mb-1">Wardrobe</h3>
+          <p class="text-2xl font-bold">Saving N40.00</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Image Placeholder -->
+    <div class="md:w-1/2 flex justify-center">
+      <div class="bg-white/20 rounded-xl p-4 border-2 border-white/30 backdrop-blur-sm">
+        <div class="w-full h-80 bg-white/30 rounded-lg flex items-center justify-center">
+          <img src="assets/img/serdson.png" alt="">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <section class="max-w-7xl mx-auto px-6 py-20 bg-blue-50">
+    <div class="flex flex-col md:flex-row items-center gap-10">
+      <!-- Left: Content -->
+      <div class="md:w-1/2">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6 text-blue-800">It's simpler & easier on the app</h2>
+        
+        <div class="flex flex-col space-y-4 mb-8">
+          <p class="text-blue-500 font-medium">Instant approvals, and 24/7 access to money</p>
+          
+          <div class="flex flex-col sm:flex-row gap-4 mt-6">
+            <a href="#" class="inline-block">
+              <img src="assets/img/Group_.png" alt="Download on the App Store" class="h-12">
+            </a>
+            <a href="#" class="inline-block">
+              <img src="assets/img/Appstore-1.png" alt="GET IT ON Google Play" class="h-12">
+            </a>
+          </div>
+        </div>
+        
+        <div class="bg-white p-4 rounded-lg shadow-md inline-block">
+          <p class="text-2xl font-bold text-blue-600">N25,000.40</p>
+          <p class="text-sm text-blue-500">Download the app</p>
+        </div>
+      </div>
+      
+      <!-- Right: Phone Image -->
+      <div class="md:w-1/2 flex justify-center">
+        <div class="relative">
+          <img src="assets/img/Payments-and-Repayments-3.png" alt="Business app interface" class="w-[300px] md:w-[350px]">
+          <div class="absolute -bottom-6 -right-6 bg-orange-100 rounded-full p-4 shadow-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="bg-white py-16 px-6">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-2xl md:text-3xl font-semibold text-blue-800 mb-6 text-center">
+        Keep up with us by signing up for our newsletter
+      </h3>
+      
+      <div class="flex flex-col md:flex-row items-center justify-between gap-4 bg-white p-6 rounded-xl shadow-sm">
+        <!-- Email Input (Left) -->
+        <div class="flex-grow max-w-md">
+          <div class="flex flex-col sm:flex-row gap-4">
+            <input 
+              type="email" 
+              placeholder="Email address" 
+              class="px-6 py-3 rounded-lg border border-orange-200 focus:border-orange-400 focus:ring-2 focus:ring-orange-200 outline-none flex-grow"
+            >
+            <button class="relative bg-blue-600 hover:bg-orange-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg whitespace-nowrap">
+                Subscribe
+                <span class="absolute top-1 right-1 w-4 h-4 bg-orange-400 rounded-full"></span>
+              </button>
+              
+          </div>
+          <p class="text-blue-600 mt-2 text-xs sm:text-sm">
+            We'll never share your email. Unsubscribe anytime.
+          </p>
+        </div>
+        
+        <!-- Social Icons (Right) -->
+        <div class="flex items-center gap-4">
+            <span class="text-blue-800 font-medium hidden md:block">Follow us:</span>
+            <div class="flex gap-3">
+              <!-- Facebook -->
+              <a href="#" class="text-blue-600 hover:text-orange-800 transition-colors">
+                <div class="h-10 w-10 rounded-full border-2 border-blue-700 p-1.5 flex items-center justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/>
+                  </svg>
+                </div>
+              </a>
+              <a href="#" class="text-blue-600 hover:text-orange-800 transition-colors">
+                <div class="h-10 w-10 rounded-full border-2 border-blue-700 p-1.5 flex items-center justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/>
+                  </svg>
+                </div>
+              </a>
+              <a href="#" class="text-blue-600 hover:text-orange-800 transition-colors">
+                <div class="h-10 w-10 rounded-full border-2 border-blue-700 p-1.5 flex items-center justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/>
+                  </svg>
+                </div>
+              </a>
+              
+             
+              
+      </div>
+    </div>
+  </section>
+  
+  
+  <footer class="bg-blue-800 text-gray-100 py-16 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <!-- Brand Column -->
+        <div class="md:col-span-1">
+          <img src="assets/img/renmoney-logo1.png" alt="">
+          <p class="text-gray-400">Financial solutions for Africa's future</p>
+        </div>
+  
+        <!-- Company Column -->
+        <div>
+          <h3 class="text-lg font-semibold text-white mb-4">Company</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-white transition-colors">AXXXIUS</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Community</a></li>
+          </ul>
+        </div>
+  
+        <!-- Features Column -->
+        <div>
+          <h3 class="text-lg font-semibold text-white mb-4">Features</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-white transition-colors">Within Africa</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Interreduced</a></li>
+          </ul>
+        </div>
+  
+        <!-- Help & Legal Column -->
+        <div class="grid grid-cols-2 gap-8">
+          <div>
+            <h3 class="text-lg font-semibold text-white mb-4">Help</h3>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-white transition-colors">Contest</a></li>
+              <li><a href="#" class="hover:text-white transition-colors">FAQs</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-white mb-4">Legal</h3>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-white transition-colors">Terms & conditions</a></li>
+              <li><a href="#" class="hover:text-white transition-colors">Privacy policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <p class="text-gray-500 text-sm mb-4 md:mb-0">© 2025 Renmoney. All rights reserved.</p>
+        <div class="flex space-x-6">
+          <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            <span class="sr-only">Facebook</span>
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+            </svg>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            <span class="sr-only">Instagram</span>
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 3.807.058h.468c2.456 0 2.784-.011 3.807-.058.975-.045 1.504-.207 1.857-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-3.807v-.468c0-2.456-.011-2.784-.058-3.807-.045-.975-.207-1.504-.344-1.857a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" />
+            </svg>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            <span class="sr-only">Twitter</span>
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+</body>
+
+
+
+<script src="assets/js/wordslider.js"></script>
+</html>
